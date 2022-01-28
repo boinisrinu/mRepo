@@ -11,7 +11,7 @@ pipeline {
         }
         stage('print file') {
             steps {
-                
+                   git 'https://github.com/boinisrinu/mRepo.git'
                    sh 'cat A.java'
             }
         }
